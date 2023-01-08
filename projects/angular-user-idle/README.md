@@ -20,7 +20,7 @@ In app.module.ts:
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
-import { UserIdleModule } from 'angular-user-idle';
+import { UserIdleModule } from '@kujjs/angular-user-idle';
 
 import { AppComponent } from './app.component';
 
@@ -46,7 +46,7 @@ for example login.component.ts:
 
 ```typescript
 import { Component, OnInit } from '@angular/core';
-import { UserIdleService } from 'angular-user-idle';
+import { UserIdleService } from '@kujjs/angular-user-idle';
 
 @Component({
   templateUrl: './login.component.jade'
