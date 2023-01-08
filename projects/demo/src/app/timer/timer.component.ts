@@ -52,7 +52,7 @@ export class TimerComponent implements OnInit {
     this.timerStartSubscription = this.userIdle
       .onTimerStart()
       .pipe(tap(() => (this.isTimer = true)))
-      .subscribe((count) => (this.timerCount = count));
+      .subscribe((count: number) => (this.timerCount = count));
 
     // Start watch when time is up.
     this.timeoutSubscription = this.userIdle
@@ -60,7 +60,7 @@ export class TimerComponent implements OnInit {
       .subscribe(() => (this.timeIsUp = true));
 
     this.pingSubscription = this.userIdle.ping$.subscribe(
-      (value) => (this.lastPing = `#${value} at ${new Date().toString()}`)
+      (value: any) => (this.lastPing = `#${value} at ${new Date().toString()}`)
     );
   }
 
