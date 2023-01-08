@@ -1,3 +1,7 @@
+## 3.2.0
+
+- Migrate to Angular 15
+
 ## 3.1.4
 
 - Fix publish npm
