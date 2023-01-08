@@ -1,6 +1,6 @@
 # angular-user-idle
 
-Service for Angular 13+ to detect and control of user's idle.
+Service for Angular 14 to detect and control of user's idle.
 
 [![npm version](https://badge.fury.io/js/angular-user-idle.svg)](https://badge.fury.io/js/angular-user-idle)
 
@@ -13,14 +13,14 @@ See [Demo app](https://rednez.github.io/angular-user-idle)
 
 ## Installation
 
-`npm install angular-user-idle`
+`npm install @kujjs/angular-user-idle`
 
 In app.module.ts:
 ```typescript
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
-import { UserIdleModule } from 'angular-user-idle';
+import { UserIdleModule } from '@kujjs/angular-user-idle';
 
 import { AppComponent } from './app.component';
 
@@ -46,7 +46,7 @@ for example login.component.ts:
 
 ```typescript
 import { Component, OnInit } from '@angular/core';
-import { UserIdleService } from 'angular-user-idle';
+import { UserIdleService } from '@kujjs/angular-user-idle';
 
 @Component({
   templateUrl: './login.component.jade'

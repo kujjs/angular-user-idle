@@ -1,16 +1,17 @@
 {
-  "name": "angular-user-idle",
-  "version": "3.0.0",
-  "description": "User's idle service for Angular 13+",
-  "author": "Vasyl Yefimenko <rednez@gmail.com>",
+  "name": "@kujjs/angular-user-idle",
+  "version": "3.1.4",
+  "description": "User's idle service for Angular 14",
+  "author": "Nelson Jara <njaraherre@gmail.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/rednez/angular-user-idle.git"
+    "url": "https://github.com/kujjs/angular-user-idle.git"
   },
+  "private": false,
   "peerDependencies": {
-    "@angular/common": "^13.3.0",
-    "@angular/core": "^13.3.0",
+    "@angular/cdk": "^14.2.7",
+    "@angular/common": "^14.2.12",
     "rxjs": "^7.5.0"
   },
   "dependencies": {

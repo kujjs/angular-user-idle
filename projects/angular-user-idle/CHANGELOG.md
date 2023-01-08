@@ -1,3 +1,11 @@
+## 3.1.4
+
+- Fix publish npm
+
+## 3.1.0
+
+- Migrate to Angular 14
+
 ## 3.0.0
 - Migrate to Angular 13
 
