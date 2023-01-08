@@ -1,7 +1,7 @@
 {
   "name": "@kujjs/angular-user-idle",
-  "version": "3.1.4",
-  "description": "User's idle service for Angular 14",
+  "version": "3.2.0",
+  "description": "User's idle service for Angular 15",
   "author": "Nelson Jara <njaraherre@gmail.com>",
   "license": "MIT",
   "repository": {
@@ -10,8 +10,8 @@
   },
   "private": false,
   "peerDependencies": {
-    "@angular/cdk": "^14.2.7",
-    "@angular/common": "^14.2.12",
+    "@angular/cdk": ">=13.3.0",
+    "@angular/common": ">=13.3.0",
     "rxjs": "^7.5.0"
   },
   "dependencies": {
